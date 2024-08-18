@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Restaurant Menu</title>
+  <link rel="stylesheet" href="menu.css">
+</head>
+<body>
+  
+  <header>
+    <div>
+      <img src="wine.png" alt="Restaurant Logo">
+  </div>
+</header>
+  
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="menu.html">Menu</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="about.html">About</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section class="menu">
+      <h2>Menu</h2>
+
+      <div class="section">
+        <h3>Appetizers</h3>
+        <div class="items">
+          <div class="item">
+            <img src="ai-generated-7925719_1280.webp" alt="Appetizer 1">
+            <h4>Burger</h4>
+            <p>Hamburger or cheeseburger or anything you want</p>
+            <p class="price">$10.99</p>
+          </div>
+
+          <div class="item">
+            <img src="CHEFS SPECIAL.png" alt="Appetizer 2">
+            <h4>PIZZARIA PIZZA</h4>
+            <p>loaded with cheese , can costomise according to your wish</p>
+            <p class="price">$25.99</p>
+          </div>
+
+          <div class="item">
+            <img src="fries.jpg" alt="Appetizer 3">
+            <h4>Fries & Gravy</h4>
+            <p>SIzzling and hot large bowl of fries with loaded Gravy</p>
+            <p class="price">$12.49</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="section">
+        <h3>Meals</h3>
+        <div class="section">
+          
+          <div class="items">
+            <div class="item">
+              <img src="porkbelly.webp" alt="Appetizer 1">
+              <h4>porkbelly</h4>
+              <p>a large cut of roasted or
+                braised pork
+                with elaborate vegetable
+                garnishes</p>
+              <p class="price">$10.99</p>
+            </div>
+  
+            <div class="item">
+              <img src="CHEFS SPECIAL (1).png" alt="Appetizer 2">
+              <h4>Steak</h4>
+              <p>a large cut of roasted or
+                braised Steak
+                with elaborate vegetable
+                garnishes</p>
+              <p class="price">$8.99</p>
+            </div>
+  
+            <div class="item">
+              <img src="CHEFS SPECIAL (2).png" alt="Appetizer 3">
+              <h4>Grilled Beef</h4>
+              <p>a large cut of roasted or
+                braised Beef
+                with elaborate vegetable
+                garnishes</p>
+              <p class="price">$12.49</p>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+
+      <div class="section">
+        <h3>Drinks</h3>
+        <div class="section">
+          
+          <div class="items">
+            <div class="item">
+              <img src="smoothies.jpg" alt="Appetizer 1">
+              <h4>smoothies</h4>
+              <p>Blended smothiee ,mixed fruit juice and fresh vegetable</p>
+              <p class="price">$10.99</p>
+            </div>
+  
+            <div class="item">
+              <img src="cosmic.png" alt="Appetizer 2">
+              <h4>Alcholic Drinks</h4>
+              <p>Any alcoholic drink wine,beer or sprits</p>
+              <p class="price">$8.99</p>
+            </div>
+  
+            <div class="item">
+              <img src="cocktail.webp" alt="Appetizer 3">
+              <h4>cocktail</h4>
+              <p>ANY desired cocktail or mocktail</p>
+              <p class="price">$12.49</p>
+            </div>
+          </div>
+        </div>
+        <!-- Drinks items -->
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; <span id="year"></span> wine and dine</p>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

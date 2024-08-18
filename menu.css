@@ -1,0 +1,124 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+    --main-color: #ff702a;
+    --text-color: #fff;
+    --bg-color: #1e1c2a;
+    --big-font: 5rem;
+    --h2-font: 2.25rem;
+    --p-font: 0.9rem;
+  }
+
+  header {
+    text-align: center;
+    padding: 20px 0;
+  }
+
+header img {
+    max-width: 200px;
+    }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    line-height: 1.6;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    background-color: var(--main-color);
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 10px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: var(--text-color);
+    font-size: var(--p-font);
+  }
+  
+  main {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  
+  footer {
+    text-align: center;
+    margin-top: 20px;
+    color: var(--text-color);
+  }
+  
+  /* Menu section styles */
+  .menu {
+    background-color:var(--bg-color);
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .section {
+    margin-bottom: 20px;
+  }
+  h1{font-size: var(--big-font);
+    text-align: center;
+    margin-bottom: 20px;
+    color: var(--text-color);
+
+  }
+  
+  h2 {
+    font-size: var(--big-font);
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  h3 {
+    font-size: var(--h2-font);
+    margin-bottom: 10px;
+    color: var(--main-color);
+  }
+  
+  .items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .item {
+    width: calc(33.33% - 20px); 
+    margin-bottom: 20px;
+    text-align: center;
+    background-color:var(--main-color);
+    border-radius: 5px;
+    padding: 15px;
+    
+  }
+  .item:hover{
+    transform: scale(1.2) translateY(10px);
+    transition: .4s ;
+  }
+  .item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .item h4 {
+    margin: 10px 0;
+  }
+  
+  .price {
+    font-weight: bold;
+    color: var(--main-color);
+  }
+  
